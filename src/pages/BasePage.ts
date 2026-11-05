@@ -7,7 +7,6 @@ export class BasePage {
     //common locators across all pages
 
     protected readonly logo: Locator;
-
     protected readonly footerlink: Locator;
     protected readonly searchBox: Locator;
     protected readonly searchIcon: Locator;

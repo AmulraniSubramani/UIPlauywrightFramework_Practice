@@ -8,9 +8,6 @@ node_modules/
 /playwright/.auth/
 
 
-# dependencies
-node_modules/
-
 # env files (credentials)
 config/.env.*
 !config/.env.example
