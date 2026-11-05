@@ -10,7 +10,7 @@ export class LoginPage extends BasePage{
     private readonly password:Locator;
     private readonly loginBtn:Locator;
     private readonly forgotPasswordLink:Locator;
-    // private readonly logo:Locator;
+    private readonly logo:Locator;
     private readonly loginErrorMsg:Locator;
 
     constructor(page: Page){
