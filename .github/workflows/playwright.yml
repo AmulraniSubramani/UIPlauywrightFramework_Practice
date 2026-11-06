@@ -70,7 +70,7 @@ jobs:
           APP_USERNAME: ${{ secrets.APP_USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
           API_BASE_URL: ${{ secrets.API_BASE_URL }}
-          API_TOKEN: ${{ secrets.API_TOKEN }}
+          API_Token: ${{ secrets.API_Token }}
          
 
       - name: Upload HTML Report
