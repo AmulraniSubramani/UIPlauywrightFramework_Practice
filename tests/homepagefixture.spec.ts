@@ -35,7 +35,7 @@ test('home page headers test', async ({ homePage }) => {
     ]);
 
 
-
+});
     
   test('company logo exists on the productpage_BasePage test', async( { basePage})=>{
 
@@ -50,5 +50,4 @@ test('footers exist on the product page test', async( { basePage})=>{
 
 
 
-});
 

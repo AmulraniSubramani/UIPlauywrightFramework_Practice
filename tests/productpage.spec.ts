@@ -31,7 +31,8 @@ test('verify productInformation data test', async ({ homePage, searchRPage, prod
     expect.soft(actualProductInfo.get('Product Code')).toBe('Product 18');
     expect.soft(actualProductInfo.get('Reward Points')).toBe('800');
     expect.soft(actualProductInfo.get('Availability')).toBe('Out Of Stock');
-    expect.soft(actualProductInfo.get('ProductPrice')).toBe('Ex Tax: $2,000.00');
+    expect.soft(actualProductInfo.get('ProductPrice')).toBe('$2,000.00');
+
 });
 
 

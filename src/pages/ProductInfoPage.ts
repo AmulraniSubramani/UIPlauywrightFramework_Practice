@@ -81,3 +81,4 @@ export class ProductInfoPage extends BasePage {
     }
 
 }
+    
