@@ -17,7 +17,7 @@
   "type": "module",
   "description": "This is opencart web app framework using page object model",
   "devDependencies": {
-    "@playwright/test": "^1.64.1",
+    "@playwright/test": "^1.65.0",
     "@types/node": "^26.6.5",
     "allure-commandline": "^2.46.1",
     "allure-playwright": "^3.14.0"
