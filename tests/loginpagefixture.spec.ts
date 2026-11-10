@@ -8,7 +8,7 @@ test.beforeEach(async ({ lpage, homePage }) => {
     await lpage.gotoLoginPage(); //goto method
 })
 
-test('loginpage title test', async ({ lpage }) => {
+test('@smoke loginpage title test', async ({ lpage }) => {
 
     const pageTitle = await lpage.getPageTitle();
     console.log('the login page title is :', pageTitle);
@@ -16,7 +16,7 @@ test('loginpage title test', async ({ lpage }) => {
 });
 
 
-test('loginpage forgot_password exist test', async ({ lpage }) => { // removing the page destructuring since everything maintained in beforeach
+test(' @regression loginpage forgot_password exist test', async ({ lpage }) => { // removing the page destructuring since everything maintained in beforeach
 
     expect(await lpage.isForgotPasswordExist()).toBeTruthy();
 });
@@ -31,7 +31,7 @@ test('user able to login test', async ({ lpage, homePage }) => {
 
 
 // DD1- sequential mode - only 1 test is running with test data one by one using testdata from fixture
-test('login to the app using wrong credetials with data driven test', async  ({lpage, homePage, testData }) =>{
+test('@regression login to the app using wrong credetials with data driven test', async  ({lpage, homePage, testData }) =>{
 
     for( let row of testData){
        await  lpage.doLogin(row.appusesrname, row.password);
