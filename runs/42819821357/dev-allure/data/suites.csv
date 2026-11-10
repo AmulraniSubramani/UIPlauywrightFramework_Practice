@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1008","@smoke loginpage title test","chromium","2026-11-10","passed","2026-11-10","","loginpagefixture.spec.ts","",""
+"","2152","@smoke loginpage title test","chromium","2026-11-10","passed","2026-11-10","","loginpagefixture.spec.ts","",""

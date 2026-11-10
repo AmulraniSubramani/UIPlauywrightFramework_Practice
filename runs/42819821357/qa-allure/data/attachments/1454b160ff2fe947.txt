@@ -1,0 +1,2 @@
+user credentials anulekhasri27@gmail.com : Amulrani@123
+home page headers are : [ 'My Account', 'My Orders', 'My Affiliate Account', 'Newsletter' ]
