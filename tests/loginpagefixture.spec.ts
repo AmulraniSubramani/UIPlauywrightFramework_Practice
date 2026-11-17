@@ -16,7 +16,7 @@ test('@smoke loginpage title test', async ({ lpage }) => {
 });
 
 
-test(' @regression loginpage forgot_password exist test', async ({ lpage }) => { // removing the page destructuring since everything maintained in beforeach
+test('@regression loginpage forgot_password exist test', async ({ lpage }) => { // removing the page destructuring since everything maintained in beforeach
 
     expect(await lpage.isForgotPasswordExist()).toBeTruthy();
 });
